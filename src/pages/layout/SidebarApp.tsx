@@ -39,17 +39,17 @@ const Landelijks = [
 const Stedelijks = [
     {
         title: "Stedelijk1",
-        url: "Stedelijk1",
+        url: "/Stedelijk1",
 
     },
     {
         title: "Stedelijk2",
-        url: "Stedelijk2",
+        url: "/Stedelijk2",
 
     },
     {
         title: "Stedelijk3",
-        url: "Stedelijk3",
+        url: "/Stedelijk3",
 
     },
 ]

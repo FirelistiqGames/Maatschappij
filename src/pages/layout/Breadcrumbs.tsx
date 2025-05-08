@@ -7,16 +7,16 @@ import {
 } from "@/components/ui/breadcrumb"; // adjust if custom components
 
 const routeConfig: Record<string, string> = {
-  "/home": "Home",
-  "/over-ons": "Over Ons",
-  "/settings": "Settings",
-  "/preventieve-gezondheidszorg": "Preventieve Gezondheidszorg",
-  "/mentale-gezondheid": "Mentale Gezondheid",
-  "/subsidies-medische-studies": "Subsidies Medische Studies",
+  "/Home": "Home",
+  "/Over-ons": "Over Ons",
+  "/Pettings": "Settings",
+  "/Preventieve-gezondheidszorg": "Preventieve Gezondheidszorg",
+  "/Mentale-gezondheid": "Mentale Gezondheid",
+  "/Subsidies-medische-studies": "Subsidies Medische Studies",
   "/Stedelijk1": "Stedelijk1",
   "/Stedelijk2": "Stedelijk2",
   "/Stedelijk3": "Stedelijk3",
-  "/nieuws": "Nieuws",
+  "/Nieuws": "Nieuws",
 
 };
 
