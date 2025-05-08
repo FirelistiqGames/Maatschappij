@@ -25,7 +25,7 @@ export default function App() {
           <Route path='/' element={<Home />}/>  
           <Route path='*' element={<Navigate to='/' />}/>
           <Route index element={<Home/>}/>
-          <Route path='home' element={<Home/>}/>
+          <Route path='/#/home' element={<Home/>}/>
           <Route path='over-ons'element={<OverOns />}/>
           <Route path='nieuws' element={<Nieuws />}/>
           <Route path='preventieve-gezondheidszorg' element={<PreventieveGezondheidszorg />}/>
