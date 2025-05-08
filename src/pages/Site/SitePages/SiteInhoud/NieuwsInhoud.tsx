@@ -1,6 +1,6 @@
-// src/pages/NieuwsOverzicht.tsx
-import { newsItems } from "../../../../data/newsitems"
-import { NewsCard } from "../../../../components/ui/NewsCard"
+import { NewsCard } from "@/components/ui/NewsCard";
+import { newsItems } from "@/data/newsitems";
+
 
 export function NieuwsOverzicht() {
   return (

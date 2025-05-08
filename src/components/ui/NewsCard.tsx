@@ -1,7 +1,8 @@
 // src/components/NewsCard.tsx
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { NewsItem } from "@/data/newsitems"
 import { Link } from "react-router-dom"
-import type { NewsItem } from "../../data/newsitems"
+
 
 export function NewsCard({ item }: { item: NewsItem }) {
   return (
