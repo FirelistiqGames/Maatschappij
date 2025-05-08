@@ -3,7 +3,8 @@ import { Footer } from "@/pages/layout/footer";
 import { SidebarApp } from "@/pages/layout/SidebarApp";
 import { Helmet } from "react-helmet";
 import { NieuwsHeader } from "../Headers/NieuwsHeader";
-import { NieuwsInhoud } from "./SiteInhoud/NieuwsInhoud";
+import { NieuwsOverzicht } from "./SiteInhoud/NieuwsInhoud";
+
 
 
 
@@ -18,7 +19,7 @@ export function Nieuws(){
           <SidebarApp />
           <SidebarInset>
             <NieuwsHeader />
-            <NieuwsInhoud />
+            <NieuwsOverzicht />
             <Footer/>
           </SidebarInset>
         </SidebarProvider>
