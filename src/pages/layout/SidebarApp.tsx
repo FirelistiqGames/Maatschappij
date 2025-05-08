@@ -57,7 +57,7 @@ const Stedelijks = [
 const items = [
     {
         title: "Home",
-        url: "#/home",
+        url: "home",
         icon: Home,
     },
     {
