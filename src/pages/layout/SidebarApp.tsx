@@ -73,7 +73,7 @@ const items = [
     },
     {
         title: "Wetsvoorstel",
-        url: "#",
+        url: "/Wetsvoorstel",
         icon: Gavel,
     },
 

@@ -10,6 +10,7 @@ import { Stedelijk1 } from './pages/Site/SitePages/Stedelijk/Stedelijk1';
 import { Stedelijk2 } from './pages/Site/SitePages/Stedelijk/Stedelijk2';
 import { Stedelijk3 } from './pages/Site/SitePages/Stedelijk/Stedelijk3';
 import { Nieuws } from './pages/Site/SitePages/Nieuws';
+import { Wetsvoorstel } from './pages/Site/SitePages/Wetsvoorstel';
 
 
 
@@ -29,6 +30,7 @@ export default function App() {
           <Route path='/Home' element={<Home/>}/>
           <Route path='/Over-ons'element={<OverOns />}/>
           <Route path='/Nieuws' element={<Nieuws />}/>
+          <Route path='/Wetsvoorstel' element={<Wetsvoorstel />}/>
           <Route path='/Preventieve-gezondheidszorg' element={<PreventieveGezondheidszorg />}/>
           <Route path='/Mentale-gezondheid' element={<MentaleGezondheid />} />
           <Route path='/Subsidies-medische-studies' element={<SubsidiesMedischeStudies />}/>

@@ -41,7 +41,7 @@ function Footerdemo() {
           <div className="relative">
             <h2 className="mb-4 text-3xl text-red-700 font-bold tracking-tight">Blijf op de hoogte!</h2>
             <p className="mb-6 text-muted-foreground text-red-700">
-              Meld u aan voor onze nieuwsbrief!
+              Meldt u aan voor onze nieuwsbrief!
             </p>
             <form className="relative">
               <Input
@@ -88,7 +88,7 @@ function Footerdemo() {
               <p>Willem de Zwijgersingel 5</p>
               <p>2805 BP, Gouda</p>
               <p>Telefoon: 0182-800850</p>
-              <p>Email: Partij.voor.gezondheid@info.nl</p>
+              <p>Email: partij.voor.gezondheid@info.nl</p>
             </address>
           </div>
           <div className="relative">
