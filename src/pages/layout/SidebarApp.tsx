@@ -14,22 +14,23 @@ import {
 import { ChevronDown, Home, PersonStanding, Newspaper, Gavel } from "lucide-react"
 
 import { useLocation } from "react-router-dom"
+import { Link } from 'react-router-dom'
 
 
 
 const Landelijks = [
     {
         title: "Preventieve Gezondheidszorg",
-        url: "preventieve-gezondheidszorg",
+        url: "/preventieve-gezondheidszorg",
 
     },
     {
         title: "Mentale Gezondheid",
-        url: "mentale-gezondheid",
+        url: "/mentale-gezondheid",
     },
     {
         title: "Subsidies Medische Studies",
-        url: "subsidies-medische-studies",
+        url: "/subsidies-medische-studies",
     },
 ]
 
@@ -71,7 +72,7 @@ const items = [
         icon: Newspaper,
     },
     {
-        title: "/Wetsvoorstel",
+        title: "Wetsvoorstel",
         url: "#",
         icon: Gavel,
     },
@@ -101,10 +102,10 @@ export function SidebarApp() {
                             {items.map((item) => (
                                 <SidebarMenuItem key={item.title}>
                                     <SidebarMenuButton asChild>
-                                        <a href={item.url}>
+                                        <Link to={item.url} className="flex items-center gap-2">
                                             <item.icon />
                                             <span>{item.title}</span>
-                                        </a>
+                                        </Link>
                                     </SidebarMenuButton>
                                 </SidebarMenuItem>
                             ))}
@@ -121,9 +122,9 @@ export function SidebarApp() {
                                             {Landelijks.map((Landelijk) => (
                                                 <SidebarMenuSubItem key={Landelijk.title}>
                                                     <SidebarMenuButton size="ts" asChild>
-                                                        <a href={Landelijk.url}>
+                                                        <Link to={Landelijk.url}>
                                                             <span>{Landelijk.title}</span>
-                                                        </a>
+                                                        </Link>
                                                     </SidebarMenuButton>
                                                 </SidebarMenuSubItem>
                                             ))}
@@ -144,9 +145,9 @@ export function SidebarApp() {
                                             {Stedelijks.map((Stedelijk) => (
                                                 <SidebarMenuSubItem key={Stedelijk.title}>
                                                     <SidebarMenuButton size="ts" asChild>
-                                                        <a href={Stedelijk.url}>
+                                                        <Link to={Stedelijk.url}>
                                                             <span>{Stedelijk.title}</span>
-                                                        </a>
+                                                        </Link>
                                                     </SidebarMenuButton>
                                                 </SidebarMenuSubItem>
                                             ))}

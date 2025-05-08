@@ -2,7 +2,7 @@ import './App.css'
 import Home from './pages/home/home'
 import  { OverOns } from './pages/Site/SitePages/OverOns';
 
-import { Routes, Route, Navigate, HashRouter } from 'react-router-dom';
+import { Routes, Route, Navigate,  } from 'react-router-dom';
 import { PreventieveGezondheidszorg } from './pages/Site/SitePages/Landelijk/Landelijk1';
 import { MentaleGezondheid } from './pages/Site/SitePages/Landelijk/Landelijk2';
 import { SubsidiesMedischeStudies } from './pages/Site/SitePages/Landelijk/Landelijk3';
@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <>
-      <HashRouter>
+      
 
         <Routes>
           <Route path='/' element={<Home />}/>  
@@ -38,7 +38,7 @@ export default function App() {
           {/* laatste 3 moeten nog aangepast worden naar daadwerkelijke titels */}
 
       </Routes>
-      </HashRouter>
+      
 
 
     </>
