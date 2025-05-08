@@ -4,25 +4,16 @@ import {
     SidebarContent,
     SidebarGroup,
     SidebarGroupContent,
-    SidebarGroupLabel,
     SidebarHeader,
-    SidebarInset,
     SidebarMenu,
     SidebarMenuButton,
     SidebarMenuItem,
     SidebarMenuSub,
-    SidebarMenuSubButton,
-    SidebarMenuSubItem,
-    SidebarProvider,
-    SidebarTrigger
-
+    SidebarMenuSubItem
 } from "@/components/ui/sidebar"
-import { Item } from "@radix-ui/react-dropdown-menu"
-import { url } from "inspector"
-import { Calendar, ChevronDown, Home, Inbox, Settings, PersonStanding, PersonStandingIcon, User2, Newspaper, Gavel } from "lucide-react"
-import { title } from "process"
+import { ChevronDown, Home, PersonStanding, Newspaper, Gavel } from "lucide-react"
 
-import { Outlet, useLocation } from "react-router-dom"
+import { useLocation } from "react-router-dom"
 
 
 

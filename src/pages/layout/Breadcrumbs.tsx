@@ -5,7 +5,6 @@ import {
   BreadcrumbLink,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"; // adjust if custom components
-import { ChevronRight } from "lucide-react";
 
 const routeConfig: Record<string, string> = {
   "home": "Home",

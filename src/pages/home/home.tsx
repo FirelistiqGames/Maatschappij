@@ -1,7 +1,5 @@
 
-import { BrowserRouter } from "react-router-dom"
-import { SidebarHeader, SidebarInset, SidebarProvider, SidebarTrigger, } from "@/components/ui/sidebar"
-import {Sidebar} from "lucide-react"
+import { SidebarInset, SidebarProvider, } from "@/components/ui/sidebar"
 import { SidebarApp } from "../layout/SidebarApp"
 import { SiteHeader } from "../Site/Headers/SiteHeader"
 import { HomePage } from "../Site/SitePages/SiteInhoud/HomePage"
