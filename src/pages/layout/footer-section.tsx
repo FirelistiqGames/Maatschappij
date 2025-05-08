@@ -59,21 +59,14 @@ function Footerdemo() {
                 <span className="sr-only">Subscribe</span>
               </Button>
             </form>
-            <div className="absolute -right-4 top-0 h-24 w-24 rounded-full bg-primary/10 blur-2xl" />
+            {/* <div className="absolute -right-4 top-0 h-24 w-24 rounded-full bg-primary/10 blur-2xl" /> */}
           </div>
           <div>
             <h3 className="mb-4 text-lg font-semibold text-red-700">Navigatie</h3>
             <nav className="space-y-2 text-sm">
             <Link to="/Home" className="block transition-colors hover:text-primary">Home</Link> 
-              {/* <a href="/Home" className="block transition-colors hover:text-primary">
-                Home
-              </a> */}
-              <a href="over-ons" className="block transition-colors hover:text-primary">
-                Over Ons
-              </a>
-              <a href="#" className="block transition-colors hover:text-primary">
-                Services
-              </a>
+            <Link to="/Over-ons" className="block transition-colors hover:text-primary">Over Ons</Link>
+            <Link to="/Nieuws" className="block transition-colors hover:text-primary">Nieuws</Link>
               <a href="#" className="block transition-colors hover:text-primary">
                 Products
               </a>
