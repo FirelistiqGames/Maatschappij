@@ -9,7 +9,8 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip"
-import { Facebook, Instagram, Link, Linkedin, Moon, SendHorizonal, Sun, Twitter } from "lucide-react"
+import { Facebook, Instagram, Linkedin, Moon, SendHorizonal, Sun, Twitter } from "lucide-react"
+import { Link } from "react-router-dom"
 
 function Footerdemo() {
    {/*const [isDarkMode, setIsDarkMode] = React.useState(false)} */}
@@ -63,7 +64,7 @@ function Footerdemo() {
           <div>
             <h3 className="mb-4 text-lg font-semibold text-red-700">Navigatie</h3>
             <nav className="space-y-2 text-sm">
-            <Link to="/Home" className="block transition-colors hover:text-primary">...</Link> 
+            <Link to="/Home" className="block transition-colors hover:text-primary">Home</Link> 
               {/* <a href="/Home" className="block transition-colors hover:text-primary">
                 Home
               </a> */}
