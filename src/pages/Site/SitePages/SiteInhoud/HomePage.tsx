@@ -15,7 +15,7 @@ export function HomePage() {
 
                     
                     <img
-                        src={`${import.meta.env.BASE_URL}bannen-dark.png`}
+                        src={`${import.meta.env.BASE_URL}banner-dark.png`}
                         alt="Banner for dark mode"
                         className="w-full h-auto hidden dark:block"
                     />
