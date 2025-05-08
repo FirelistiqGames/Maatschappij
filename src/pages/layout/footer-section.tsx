@@ -41,7 +41,7 @@ function Footerdemo() {
           <div className="relative">
             <h2 className="mb-4 text-3xl text-red-700 font-bold tracking-tight">Blijf op de hoogte!</h2>
             <p className="mb-6 text-muted-foreground text-red-700">
-              Meld je aan voor onze niewsbrief1!
+              Meld U aan voor onze niewsbrief!
             </p>
             <form className="relative">
               <Input
