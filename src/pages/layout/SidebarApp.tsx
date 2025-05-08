@@ -21,16 +21,16 @@ import { Link } from 'react-router-dom'
 const Landelijks = [
     {
         title: "Preventieve Gezondheidszorg",
-        url: "/preventieve-gezondheidszorg",
+        url: "/Preventieve-gezondheidszorg",
 
     },
     {
         title: "Mentale Gezondheid",
-        url: "/mentale-gezondheid",
+        url: "/Mentale-gezondheid",
     },
     {
         title: "Subsidies Medische Studies",
-        url: "/subsidies-medische-studies",
+        url: "/Subsidies-medische-studies",
     },
 ]
 
