@@ -1,5 +1,6 @@
+import { newsItems } from "@/components/ui/data/newsItems";
 import { NewsCard } from "@/components/ui/NewsCard";
-import { newsItems } from "src/data/newsitems";
+
 
 
 export function NieuwsOverzicht() {
