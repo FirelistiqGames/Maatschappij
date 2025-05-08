@@ -58,17 +58,17 @@ const Stedelijks = [
 const items = [
     {
         title: "Home",
-        url: "/home",
+        url: "/Home",
         icon: Home,
     },
     {
         title: "Over Ons",
-        url: "/over-ons",
+        url: "/Over-ons",
         icon: PersonStanding,
     },
     {
         title: "Nieuws",
-        url: "/nieuws",
+        url: "/Nieuws",
         icon: Newspaper,
     },
     {
