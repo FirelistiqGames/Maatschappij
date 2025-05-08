@@ -26,15 +26,15 @@ export default function App() {
           <Route path='/' element={<Home />}/>  
           <Route path='*' element={<Navigate to='/' />}/>
           <Route index element={<Home/>}/>
-          <Route path='home' element={<Home/>}/>
-          <Route path='over-ons'element={<OverOns />}/>
-          <Route path='nieuws' element={<Nieuws />}/>
-          <Route path='preventieve-gezondheidszorg' element={<PreventieveGezondheidszorg />}/>
-          <Route path='mentale-gezondheid' element={<MentaleGezondheid />} />
-          <Route path='subsidies-medische-studies' element={<SubsidiesMedischeStudies />}/>
-          <Route path='Stedelijk1' element={<Stedelijk1 />}/>
-          <Route path='Stedelijk2' element={<Stedelijk2 />}/>
-          <Route path='Stedelijk3'  element={<Stedelijk3 />}/>
+          <Route path='/home' element={<Home/>}/>
+          <Route path='/over-ons'element={<OverOns />}/>
+          <Route path='/nieuws' element={<Nieuws />}/>
+          <Route path='/preventieve-gezondheidszorg' element={<PreventieveGezondheidszorg />}/>
+          <Route path='/mentale-gezondheid' element={<MentaleGezondheid />} />
+          <Route path='/subsidies-medische-studies' element={<SubsidiesMedischeStudies />}/>
+          <Route path='/Stedelijk1' element={<Stedelijk1 />}/>
+          <Route path='/Stedelijk2' element={<Stedelijk2 />}/>
+          <Route path='/Stedelijk3'  element={<Stedelijk3 />}/>
           {/* laatste 3 moeten nog aangepast worden naar daadwerkelijke titels */}
 
       </Routes>
