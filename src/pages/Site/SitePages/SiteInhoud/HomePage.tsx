@@ -8,14 +8,14 @@ export function HomePage() {
                 <div className="w-full">
                     
                     <img
-                        src="/banner-light.png"
+                        src="./banner-light.png"
                         alt="Banner for light mode"
                         className="w-full h-auto block dark:hidden"
                     />
 
                     
                     <img
-                        src="/banner-dark.png"
+                        src="./banner-dark.png"
                         alt="Banner for dark mode"
                         className="w-full h-auto hidden dark:block"
                     />
