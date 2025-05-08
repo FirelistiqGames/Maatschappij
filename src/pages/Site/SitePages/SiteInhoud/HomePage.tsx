@@ -9,7 +9,6 @@ export function HomePage() {
                     
                     <img
                         src={`${import.meta.env.BASE_URL}banner-light.png`} 
-                        {/* src="./banner-light.png" */}
                         alt="Banner for light mode"
                         className="w-full h-auto block dark:hidden"
                     />
@@ -17,7 +16,6 @@ export function HomePage() {
                     
                     <img
                         src={`${import.meta.env.BASE_URL}bannen-dark.png`}
-                        {/*src="./banner-dark.png"*/}
                         alt="Banner for dark mode"
                         className="w-full h-auto hidden dark:block"
                     />
