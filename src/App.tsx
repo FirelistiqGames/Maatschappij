@@ -1,12 +1,8 @@
-import { useState } from 'react'
 import './App.css'
 import Home from './pages/home/home'
-import { HomePage } from './pages/Site/SitePages/SiteInhoud/HomePage';
 import  { OverOns } from './pages/Site/SitePages/OverOns';
 
-import { Routes, Route, Navigate, BrowserRouter } from 'react-router-dom';
-import { SidebarProvider, SidebarTrigger } from './components/ui/sidebar';
-import ReactDOM from 'react-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { PreventieveGezondheidszorg } from './pages/Site/SitePages/Landelijk/Landelijk1';
 import { MentaleGezondheid } from './pages/Site/SitePages/Landelijk/Landelijk2';
 import { SubsidiesMedischeStudies } from './pages/Site/SitePages/Landelijk/Landelijk3';
