@@ -35,8 +35,8 @@ export default function App() {
           <Route path='/Preventieve-gezondheidszorg' element={<PreventieveGezondheidszorg />}/>
           <Route path='/Mentale-gezondheid' element={<MentaleGezondheid />} />
           <Route path='/Subsidies-medische-studies' element={<SubsidiesMedischeStudies />}/>
-          <Route path='/Stedelijk1' element={<Stedelijk1 />}/>
-          <Route path='/Stedelijk2' element={<Stedelijk2 />}/>
+          <Route path='/Sportprogramma-Ouderen' element={<Stedelijk1 />}/>
+          <Route path='/School-Vertrouwenspersoon' element={<Stedelijk2 />}/>
           <Route path='/Stedelijk3'  element={<Stedelijk3 />}/>
           <Route path='/Nieuws/Opgericht' element={<Opgericht />}/>
           {/* laatste 3 moeten nog aangepast worden naar daadwerkelijke titels */}

@@ -11,8 +11,8 @@ export function Stedelijk1() {
     return (
         <>
             <Helmet>
-                <title>PvG - Stedelijk1</title>
-                <link rel="icon" type="ico" href="/logo.ico" />
+                <title>PvG - Sportprogramma Ouderen</title>
+                <link rel="icon" type="ico" href="/logo2.ico" />
             </Helmet>
             <SidebarProvider>
                 <SidebarApp />

@@ -1,15 +1,33 @@
 
 
 
-export function OpgerichtInhoud(){
-    return(
+export function OpgerichtInhoud() {
+    return (
         <>
-        <div className="mt-15 ml-3">
-        <p>
-            test
-        </p>
+            <div className="mt-15">
+                <div className="w-full">
 
-        </div>
+                    <img
+                        src={`${import.meta.env.BASE_URL}banner-light.png`}
+                        alt="Banner for light mode"
+                        className="w-full h-auto block dark:hidden"
+                    />
+
+
+                    <img
+                        src={`${import.meta.env.BASE_URL}banner-dark.png`}
+                        alt="Banner for dark mode"
+                        className="w-full h-auto hidden dark:block"
+                    />
+                </div>
+                <div className="ml-3">
+
+                    <p>
+                        test
+                    </p>
+
+                </div>
+            </div>
         </>
     )
 }

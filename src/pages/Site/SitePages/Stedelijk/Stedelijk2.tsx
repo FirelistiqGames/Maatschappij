@@ -11,7 +11,7 @@ export function Stedelijk2() {
     return (
         <>
             <Helmet>
-                <title>PvG - Stedelijk2</title>
+                <title>PvG - Vertrouwenspersoon op School</title>
                 <link rel="icon" type="ico" href="/logo.ico" />
             </Helmet>
             <SidebarProvider>

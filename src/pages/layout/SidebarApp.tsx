@@ -38,13 +38,13 @@ const Landelijks = [
 
 const Stedelijks = [
     {
-        title: "Stedelijk1",
-        url: "/Stedelijk1",
+        title: "Sportprogramma Ouderen",
+        url: "/Sportprogramma-Ouderen",
 
     },
     {
-        title: "Stedelijk2",
-        url: "/Stedelijk2",
+        title: "Vertrouwenspersoon op School",
+        url: "/School-Vertrouwenspersoon",
 
     },
     {
