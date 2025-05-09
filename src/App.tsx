@@ -11,6 +11,7 @@ import { Stedelijk2 } from './pages/Site/SitePages/Stedelijk/Stedelijk2';
 import { Stedelijk3 } from './pages/Site/SitePages/Stedelijk/Stedelijk3';
 import { Nieuws } from './pages/Site/SitePages/Nieuws';
 import { Wetsvoorstel } from './pages/Site/SitePages/Wetsvoorstel';
+import { Opgericht } from './pages/Site/SitePages/SiteInhoud/Nieuws/Opgericht';
 
 
 
@@ -37,6 +38,7 @@ export default function App() {
           <Route path='/Stedelijk1' element={<Stedelijk1 />}/>
           <Route path='/Stedelijk2' element={<Stedelijk2 />}/>
           <Route path='/Stedelijk3'  element={<Stedelijk3 />}/>
+          <Route path='/Nieuws/Opgericht' element={<Opgericht />}/>
           {/* laatste 3 moeten nog aangepast worden naar daadwerkelijke titels */}
 
       </Routes>

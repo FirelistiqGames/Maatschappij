@@ -13,14 +13,15 @@ export interface NewsItem {
       content:
         "Partij voor Gezondheid is opgericht! De partij zet zich in voor de gezondheid van Nederlanders. Gezondheid is geen luxe, het is een recht!",
       image: `${import.meta.env.BASE_URL}banner-light.png`,
-      link: "/nieuws/opgericht",
+      link: "/Nieuws/opgericht",
     },
+    /*}
     {
       title: "Partij voor Gezondheid Opgericht2222!",
       content:
         "Partij voor Gezondheid is opgericht! De partij zet zich in voor de gezondheid van Nederlanders. Gezondheid is geen luxe, het is een recht!",
       image: `${import.meta.env.BASE_URL}banner-light.png`,
-      link: "/nieuws/opgericht2222",
+      link: "/Nieuws/opgericht2222",
     },
     {
         title: "Partij voor Gezondheid Opgericht2222!",
@@ -41,8 +42,8 @@ export interface NewsItem {
         content:
           "Partij voor Gezondheid is opgericht! De partij zet zich in voor de gezondheid van Nederlanders. Gezondheid is geen luxe, het is een recht!",
         image: `${import.meta.env.BASE_URL}banner-light.png`,
-        link: "/nieuws/opgericht455555444",
-      },
+        link: "#",
+      }, */
 
   ]
   
